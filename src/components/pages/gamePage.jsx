@@ -26,7 +26,7 @@ function GamePage() {
       },
       physics: {
         default: "arcade",
-        arcade: { gravity: { y: 300 }, debug: false },
+        arcade: { gravity: { y: 700 }, debug: false },
       },
       scene: [ MenuScene, NickNameScene, Nivel1Scene, Nivel2Scene, Nivel3Scene, Nivel4Scene, Nivel5Scene, Nivel6Scene,  GameOverScene ],
     };
